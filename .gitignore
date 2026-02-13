@@ -1,0 +1,15 @@
+node_modules/
+.next/
+dist/
+build/
+*.log
+.env
+.env.local
+.vercel/
+.DS_Store
+.vercel
+.env*.local
+
+# Data directories (keep on disk, not in git)
+data/
+alex-penmans-fb-data/

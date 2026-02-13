@@ -1,0 +1,25 @@
+# GPT-SoVITS Voice Synthesis Backend Requirements
+# Install with: pip install -r requirements-voice.txt
+
+# Core voice synthesis
+GPT-SoVITS>=1.0.0
+torch>=2.0.0,<2.2  # PyTorch (include CUDA if available)
+torchaudio>=2.0.0
+
+# Web framework
+Flask>=2.3.0
+Flask-CORS>=4.0.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+requests>=2.31.0
+
+# Optional: For GPU acceleration (if using CUDA)
+# torch-cuda-runtime>=11.8  # Only if using NVIDIA GPU
